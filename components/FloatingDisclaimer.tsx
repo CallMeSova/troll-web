@@ -28,6 +28,17 @@ export default function FloatingDisclaimer() {
                             <p>2. ข้อมูลรหัสผ่านทั้งหมดเป็นการสุ่มโดย Logic ของ Client และไม่มีการบันทึกลงฐานข้อมูลจริง</p>
                             <p className="text-zinc-400 italic border-l border-zinc-700 pl-4">ข้อมูลของคุณยังคงปลอดภัย 100%</p>
                         </div>
+
+                        <section className="mt-6 pt-4 border-t border-zinc-800">
+                            <h4 className="text-[10px] text-zinc-500 font-bold uppercase mb-1">Developer Identity</h4>
+                            <p className="text-[10px] text-zinc-600">
+                                Designed and Developed by **Vigothirapat (Vigo)**
+                                <br />
+                                GitHub: <a href="https://github.com/CallMeSova" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-400">CallMeSova</a>
+                                <br />
+                                Gmail: vigothirapat2548@gmail.com
+                            </p>
+                        </section>
                     </div>
                 </div>
             )}
