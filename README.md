@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ø-Auth | Minimalist Chaotic Authentication 🤡
 
-## Getting Started
+ระบบ Login/Register ฉบับมินิมอลที่มีลูกเล่น **"ปั่นประสาท"** สร้างขึ้นเพื่อทดสอบความอดทนและสร้างสีสันด้วยระบบตอบโต้ที่คาดเดาไม่ได้
 
-First, run the development server:
+🌐 **Live Demo:** #
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 💻 Tech Stack
+โปรเจกต์นี้ถูกพัฒนาขึ้นด้วยเทคโนโลยีล่าสุด (2026):
+- **Framework:** [Next.js 16](https://nextjs.org/) (App Router)
+- **Language:** [TypeScript](https://www.typescriptlang.org/)
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Key Features
+- 🎭 **Chaotic Validation:** ระบบแกล้งบอกว่ารหัสผ่านมีคนใช้แล้ว โดยสุ่มอีเมลแปลกๆ ขึ้นมาอ้าง
+- 🧠 **Sophisticated Insults:** ระบบวิจารณ์รหัสผ่านด้วยภาษาปั่นๆ แต่ดูมีชั้นเชิง
+- 🚨 **Fake Breach Dashboard:** จำลองหน้าจอ Terminal ขโมยข้อมูล (Fake Data Leak) หลังจาก Login สำเร็จ
+- ⚖️ **Floating Disclaimer:** ปุ่มแจ้งเตือนข้อตกลงอย่างเป็นทางการที่ลอยอยู่มุมจอ เพื่อยืนยันว่าไม่มีการเก็บข้อมูลจริง
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🛠️ Getting Started (การรันโปรเจกต์ในเครื่อง)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Clone repository นี้:
 
-## Learn More
+   ```
+   git clone [https://github.com/CallMeSova/troll-auth-system.git](https://github.com/CallMeSova/troll-auth-system.git)
+   ```
+2. เข้าไปในโฟลเดอร์โปรเจกต์:
 
-To learn more about Next.js, take a look at the following resources:
+    ```
+    cd troll-auth-system
+    ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. ติดตั้ง Dependencies:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```
+    npm install
+    ```
 
-## Deploy on Vercel
+4. เริ่มต้น Development Server:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+    ```
+    npm run dev
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ⚠️ Disclaimer
+โปรเจกต์นี้จัดทำขึ้นเพื่อความบันเทิงและการทดสอบเชิงสร้างสรรค์เท่านั้น ระบบไม่มีการบันทึกข้อมูลส่วนบุคคล รหัสผ่าน หรือที่อยู่อีเมลจริงเข้าสู่ฐานข้อมูล ข้อมูลทั้งหมดเป็นการจำลองที่ประมวลผลบนฝั่งผู้ใช้งาน (Client-side) เท่านั้น
+
+## 📞 Contact
+ช่องทางการติดต่อและติดตามผลงาน:
+
+- **GitHub:** [@CallMeSova](https://github.com/CallMeSova)
+- **Email:** vigothirapat2548@gmail.com
+- **Facebook:** [VigoThiraphat](https://www.facebook.com/vigo.thiraphat/)
